@@ -15,9 +15,9 @@ namespace Collections
             Console.WriteLine(al.Capacity);
             al.Add(100);
             Console.WriteLine(al.Capacity);
-            al.Add(200);al.Add(300); al.Add(400);
+            al.Add("Hello");al.Add(true); al.Add(23.45);
             Console.WriteLine(al.Capacity);
-            al.Add(500);
+            al.Add('A');
             Console.WriteLine(al.Capacity);
 
             foreach(object obj in al)
