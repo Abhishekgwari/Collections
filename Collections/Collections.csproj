@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Collections.Student.TestStudent</StartupObject>
+    <StartupObject>Collections.TestEmployee</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Customer.cs" />
     <Compile Include="DictionaryCollection.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Generic2.cs" />
     <Compile Include="Generics1.cs" />
     <Compile Include="GenricList.cs" />
